@@ -1,37 +1,74 @@
 # eframe-docs
 
-#### 介绍
 EFRAME企业级框架使用指南文档工程
 
-#### 软件架构
-软件架构说明
+## 简介
 
 
-#### 安装教程
+## 修改历史记录
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+[CHANGELOG](./CHANGELOG.md)
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 快速预览
+
+
+
+
+## 环境准备
+
+- [node](http://nodejs.org/) and [git](https://git-scm.com/) - Project development environment
+- [Vite](https://vitejs.dev/) - Familiar with vite features
+- [Vue3](https://v3.vuejs.org/) - Familiar with Vue basic syntax
+- [TypeScript](https://www.typescriptlang.org/) - Familiar with the basic syntax of `TypeScript`
+- [Es6+](http://es6.ruanyifeng.com/) - Familiar with es6 basic syntax
+- [Vue-Router-Next](https://next.router.vuejs.org/) - Familiar with the basic use of vue-router
+- [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/) - ui basic use
+- [Mock.js](https://github.com/nuysoft/Mock) - mockjs basic syntax
+
+## 安装和使用
+
+- 获取项目代码
+
+```bash
+git clone https://gitee.com/linlannet/eframe-docs.git
+```
+
+- 安装依赖
+
+```bash
+cd eframe-docs
+
+npm install
+
+```
+
+- 调试运行
+
+```bash
+npm run dev
+```
+
+- 打包发布
+
+```bash
+npm build
+```
+
+## 参与贡献
+
+欢迎你的加入！[提交 issue](https://gitee.com/linlannet/eframe-docs/issues/new/choose) 或者提交拉取请求。
+
+**拉取请求步骤:**
+
+1. Fork 代码仓库
+2. 创建你自己的分支: `git checkout -b feat/xxxx`
+3. 提交你的代码: `git commit -am 'feat(function): add xxxxx'`
+4. 推送你的分支到本仓库: `git push origin feat/xxxx`
+5. 发布`pull request`
+
+## 版权
+
+[Apache 2.0 © eframe-docs 2023](./LICENSE)
+
